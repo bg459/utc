@@ -17,11 +17,13 @@ pred3 = np.asarray([pred3_df[df.columns[i]] for i in range(1, len(df.columns))])
 
 rp = np.zeros((data.shape[1]-1))
 
-# for i in range(0, data.shape[1]):
-for i in range(0, 100):
+for i in range(0, data.shape[1]-1):
+# for i in range(0, 100):
     w = allocate_portfolio(data[:,i].tolist(), pred1[:,i].tolist(), pred2[:,i].tolist(), pred3[:,i].tolist())
 
-    print(w)
-    rp[i] = w.T @ ((data[:,i]-data[:,i-1]) / data[:,i-1])
+    if i > 0:
+    # rp[i] = w.T @ ((data[:,i]-data[:,i-1]) / data[:,i-1])
+        rp[i-1] = np.sum(w * ((data[:,i+1]-data[:,i]) / data[:,i]))
 
+print(rp.shape)
 print('Sharpe ratio: ' + str((252**0.5)*np.mean(rp)/np.std(rp)))

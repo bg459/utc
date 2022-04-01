@@ -119,6 +119,9 @@ def allocate_portfolio(asset_prices, asset_price_predictions_1,
 
         returns = np.concatenate([returns, new_returns], axis=1)
 
+    # n_assets = len(asset_prices)
+    # weights = np.repeat(1 / n_assets, n_assets)
+    # return weights
 
     if returns.shape[1] <= 1:
         n_assets = len(asset_prices)

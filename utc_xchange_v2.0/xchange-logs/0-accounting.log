@@ -1,0 +1,506 @@
+{"Type":"Asset Specs","Data":{"LBSJ":{"LotSize":"1","SettlementCurrency":""},"LBSM":{"LotSize":"1","SettlementCurrency":""},"LBSQ":{"LotSize":"1","SettlementCurrency":""},"LBSV":{"LotSize":"1","SettlementCurrency":""},"LBSZ":{"LotSize":"1","SettlementCurrency":""}},"Timestamp":"2022-04-05T22:21:08.600159-07:00"}
+{"Type":"MarkPrices","Data":{},"Timestamp":"2022-04-05T22:21:09.600122-07:00"}
+{"Type":"MarkPrices","Data":{},"Timestamp":"2022-04-05T22:21:10.601752-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"0","Positions":{}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:10.604637-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"210.91","LBSM":"221.08","LBSQ":"208.45","LBSV":"212.4","LBSZ":"225.55"},"Timestamp":"2022-04-05T22:21:11.600366-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-26180.4","Positions":{"LBSJ":20,"LBSM":20,"LBSQ":20,"LBSV":20,"LBSZ":20}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:11.600576-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"210.91","LBSM":"221.08","LBSQ":"208.45","LBSV":"212.4","LBSZ":"225.55"},"Timestamp":"2022-04-05T22:21:12.600325-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-52364.8","Positions":{"LBSJ":40,"LBSM":40,"LBSQ":40,"LBSV":40,"LBSZ":40}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:12.600581-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.41","LBSM":"217.23","LBSQ":"225.31","LBSV":"210.53","LBSZ":"214.42"},"Timestamp":"2022-04-05T22:21:13.599554-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-77965.8","Positions":{"LBSJ":60,"LBSM":60,"LBSQ":60,"LBSV":60,"LBSZ":60}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:13.600289-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.41","LBSM":"217.23","LBSQ":"225.31","LBSV":"210.53","LBSZ":"214.42"},"Timestamp":"2022-04-05T22:21:14.600176-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-103566.8","Positions":{"LBSJ":80,"LBSM":80,"LBSQ":80,"LBSV":80,"LBSZ":80}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:14.600219-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.95","LBSM":"218.61","LBSQ":"215.27","LBSV":"212.55","LBSZ":"225.4"},"Timestamp":"2022-04-05T22:21:15.599347-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:15.599506-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.95","LBSM":"218.61","LBSQ":"215.27","LBSV":"212.55","LBSZ":"225.4"},"Timestamp":"2022-04-05T22:21:16.600346-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:16.600611-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"226.39","LBSM":"223.91","LBSQ":"214.68","LBSV":"208.86","LBSZ":"218.81"},"Timestamp":"2022-04-05T22:21:17.600269-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:17.600742-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"226.39","LBSM":"223.91","LBSQ":"214.68","LBSV":"208.86","LBSZ":"218.81"},"Timestamp":"2022-04-05T22:21:18.600193-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:18.600537-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.41","LBSM":"209.82","LBSQ":"230.5","LBSV":"216.18","LBSZ":"204.48"},"Timestamp":"2022-04-05T22:21:19.600724-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:19.601014-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.41","LBSM":"209.82","LBSQ":"230.5","LBSV":"216.18","LBSZ":"204.48"},"Timestamp":"2022-04-05T22:21:20.600169-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:20.600334-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.25","LBSM":"191.74","LBSQ":"220.49","LBSV":"215.35","LBSZ":"217.29"},"Timestamp":"2022-04-05T22:21:21.600124-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:21.600232-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.25","LBSM":"191.74","LBSQ":"220.49","LBSV":"215.35","LBSZ":"217.29"},"Timestamp":"2022-04-05T22:21:22.600062-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:22.600143-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.07","LBSM":"218.18","LBSQ":"215.67","LBSV":"212.3","LBSZ":"204.49"},"Timestamp":"2022-04-05T22:21:23.600377-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:23.600641-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.07","LBSM":"218.18","LBSQ":"215.67","LBSV":"212.3","LBSZ":"204.49"},"Timestamp":"2022-04-05T22:21:24.600218-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:24.600319-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"199.34","LBSM":"204.97","LBSQ":"216.15","LBSV":"218.04","LBSZ":"217.65"},"Timestamp":"2022-04-05T22:21:25.599312-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:25.599508-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"199.34","LBSM":"204.97","LBSQ":"216.15","LBSV":"218.04","LBSZ":"217.65"},"Timestamp":"2022-04-05T22:21:26.599809-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:26.60028-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"217.68","LBSM":"212.05","LBSQ":"210.8","LBSV":"226.98","LBSZ":"209.71"},"Timestamp":"2022-04-05T22:21:27.600269-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:27.600396-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"217.68","LBSM":"212.05","LBSQ":"210.8","LBSV":"226.98","LBSZ":"209.71"},"Timestamp":"2022-04-05T22:21:28.600303-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:28.600562-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"209.75","LBSM":"215.7","LBSQ":"214.86","LBSV":"215.92","LBSZ":"223.37"},"Timestamp":"2022-04-05T22:21:29.600368-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:29.600713-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"209.75","LBSM":"215.7","LBSQ":"214.86","LBSV":"215.92","LBSZ":"223.37"},"Timestamp":"2022-04-05T22:21:30.600123-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:30.600212-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"198.47","LBSM":"221.01","LBSQ":"217.17","LBSV":"211.52","LBSZ":"223.37"},"Timestamp":"2022-04-05T22:21:31.600211-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:31.600413-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"198.47","LBSM":"221.01","LBSQ":"217.17","LBSV":"221.23","LBSZ":"214.56"},"Timestamp":"2022-04-05T22:21:32.600209-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:32.600376-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"198.47","LBSM":"221.01","LBSQ":"217.17","LBSV":"221.23","LBSZ":"214.56"},"Timestamp":"2022-04-05T22:21:33.60007-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:33.600126-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"215.87","LBSM":"215.86","LBSQ":"204.6","LBSV":"206.13","LBSZ":"212.38"},"Timestamp":"2022-04-05T22:21:34.600173-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:34.600642-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"215.87","LBSM":"215.86","LBSQ":"204.6","LBSV":"206.13","LBSZ":"212.38"},"Timestamp":"2022-04-05T22:21:35.600438-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:35.600691-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"227.32","LBSM":"214","LBSQ":"207.25","LBSV":"219.29","LBSZ":"212.03"},"Timestamp":"2022-04-05T22:21:36.59976-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:36.60002-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"227.32","LBSM":"214","LBSQ":"207.25","LBSV":"219.29","LBSZ":"212.03"},"Timestamp":"2022-04-05T22:21:37.600426-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:37.600702-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"221.44","LBSM":"209.43","LBSQ":"212.9","LBSV":"218.92","LBSZ":"214.13"},"Timestamp":"2022-04-05T22:21:38.600171-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:38.600486-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"221.44","LBSM":"209.43","LBSQ":"212.9","LBSV":"218.92","LBSZ":"214.13"},"Timestamp":"2022-04-05T22:21:39.600634-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:39.600851-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"209.91","LBSM":"194.65","LBSQ":"214.65","LBSV":"220.54","LBSZ":"215.6"},"Timestamp":"2022-04-05T22:21:40.600324-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:40.600641-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"209.91","LBSM":"194.65","LBSQ":"214.65","LBSV":"220.54","LBSZ":"215.6"},"Timestamp":"2022-04-05T22:21:41.600204-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:41.600434-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.54","LBSM":"211.55","LBSQ":"220.61","LBSV":"216.3","LBSZ":"216.1"},"Timestamp":"2022-04-05T22:21:42.600318-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:42.600624-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.54","LBSM":"211.55","LBSQ":"220.61","LBSV":"216.3","LBSZ":"216.1"},"Timestamp":"2022-04-05T22:21:43.599731-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:43.599976-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"215.64","LBSM":"214.75","LBSQ":"210.48","LBSV":"212.59","LBSZ":"196.16"},"Timestamp":"2022-04-05T22:21:44.600117-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:44.600217-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"215.64","LBSM":"214.75","LBSQ":"210.48","LBSV":"212.59","LBSZ":"196.16"},"Timestamp":"2022-04-05T22:21:45.600281-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:45.600544-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"204.69","LBSM":"239.91","LBSQ":"218.57","LBSV":"217.15","LBSZ":"208.21"},"Timestamp":"2022-04-05T22:21:46.599675-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:46.599949-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"204.69","LBSM":"239.91","LBSQ":"218.57","LBSV":"217.15","LBSZ":"208.21"},"Timestamp":"2022-04-05T22:21:47.600301-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:47.600509-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.61","LBSM":"207.19","LBSQ":"211.36","LBSV":"215.56","LBSZ":"213.24"},"Timestamp":"2022-04-05T22:21:48.599875-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:48.600022-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.61","LBSM":"207.19","LBSQ":"211.36","LBSV":"215.56","LBSZ":"213.24"},"Timestamp":"2022-04-05T22:21:49.600295-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:49.600562-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"212.9","LBSM":"224.17","LBSQ":"226.86","LBSV":"216.41","LBSZ":"216.42"},"Timestamp":"2022-04-05T22:21:50.60047-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:50.600765-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"212.9","LBSM":"224.17","LBSQ":"226.86","LBSV":"216.41","LBSZ":"216.42"},"Timestamp":"2022-04-05T22:21:51.600233-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:51.600489-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"186.03","LBSM":"215.8","LBSQ":"219.52","LBSV":"219.27","LBSZ":"241.13"},"Timestamp":"2022-04-05T22:21:52.600253-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:52.600543-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"186.03","LBSM":"215.8","LBSQ":"219.52","LBSV":"219.27","LBSZ":"241.13"},"Timestamp":"2022-04-05T22:21:53.600205-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:53.600452-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.14","LBSM":"213.34","LBSQ":"219.32","LBSV":"215.53","LBSZ":"213"},"Timestamp":"2022-04-05T22:21:54.60029-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:54.600587-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"216.14","LBSM":"213.34","LBSQ":"219.32","LBSV":"215.53","LBSZ":"213"},"Timestamp":"2022-04-05T22:21:55.600213-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:55.600407-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"213.46","LBSM":"221.71","LBSQ":"219.82","LBSV":"215.74","LBSZ":"212.13"},"Timestamp":"2022-04-05T22:21:56.600045-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:56.600104-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"213.46","LBSM":"221.71","LBSQ":"219.82","LBSV":"215.74","LBSZ":"212.13"},"Timestamp":"2022-04-05T22:21:57.60012-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:57.600247-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"207.48","LBSM":"201.71","LBSQ":"230.64","LBSV":"216.95","LBSZ":"211.9"},"Timestamp":"2022-04-05T22:21:58.600339-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:58.600658-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"207.48","LBSM":"201.71","LBSQ":"230.64","LBSV":"216.95","LBSZ":"211.9"},"Timestamp":"2022-04-05T22:21:59.600108-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:21:59.600204-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.84","LBSM":"215.02","LBSQ":"215.72","LBSV":"212.56","LBSZ":"220.88"},"Timestamp":"2022-04-05T22:22:00.600314-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:00.600609-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.84","LBSM":"215.02","LBSQ":"215.72","LBSV":"212.56","LBSZ":"220.88"},"Timestamp":"2022-04-05T22:22:01.599639-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:01.599695-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"213.04","LBSM":"215.54","LBSQ":"215.96","LBSV":"216.27","LBSZ":"229.53"},"Timestamp":"2022-04-05T22:22:02.601635-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:02.6019-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"213.04","LBSM":"215.54","LBSQ":"215.96","LBSV":"216.27","LBSZ":"229.53"},"Timestamp":"2022-04-05T22:22:03.599045-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:03.599133-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.01","LBSM":"217.34","LBSQ":"217.54","LBSV":"215.58","LBSZ":"216.63"},"Timestamp":"2022-04-05T22:22:04.600182-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:04.600359-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.01","LBSM":"217.34","LBSQ":"217.54","LBSV":"215.58","LBSZ":"216.63"},"Timestamp":"2022-04-05T22:22:05.599838-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:05.601808-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"199.41","LBSM":"216.23","LBSQ":"218.33","LBSV":"210.59","LBSZ":"218.46"},"Timestamp":"2022-04-05T22:22:06.600337-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:06.600625-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"199.41","LBSM":"216.23","LBSQ":"218.33","LBSV":"210.59","LBSZ":"218.46"},"Timestamp":"2022-04-05T22:22:07.600366-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:07.600661-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"214.55","LBSM":"213.29","LBSQ":"210.02","LBSV":"217.58","LBSZ":"210.45"},"Timestamp":"2022-04-05T22:22:08.600388-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:08.600676-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"214.55","LBSM":"213.29","LBSQ":"210.02","LBSV":"217.58","LBSZ":"210.45"},"Timestamp":"2022-04-05T22:22:09.59914-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:09.599427-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.13","LBSM":"217.57","LBSQ":"209.17","LBSV":"216.41","LBSZ":"219.78"},"Timestamp":"2022-04-05T22:22:10.600235-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:10.600501-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"218.13","LBSM":"217.57","LBSQ":"209.17","LBSV":"216.41","LBSZ":"219.78"},"Timestamp":"2022-04-05T22:22:11.600215-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:11.600448-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"211.73","LBSM":"209.47","LBSQ":"216.08","LBSV":"206.58","LBSZ":"207.78"},"Timestamp":"2022-04-05T22:22:12.599215-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:12.599286-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"211.73","LBSM":"209.47","LBSQ":"216.08","LBSV":"206.58","LBSZ":"207.78"},"Timestamp":"2022-04-05T22:22:13.600198-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:13.600518-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.8","LBSM":"214.04","LBSQ":"217.55","LBSV":"207.31","LBSZ":"216.16"},"Timestamp":"2022-04-05T22:22:14.60133-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:14.601706-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"219.8","LBSM":"214.04","LBSQ":"217.55","LBSV":"207.31","LBSZ":"216.16"},"Timestamp":"2022-04-05T22:22:15.600443-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:15.606622-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"211.42","LBSM":"213.61","LBSQ":"210.11","LBSV":"214.18","LBSZ":"210.43"},"Timestamp":"2022-04-05T22:22:16.600311-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:16.600378-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"211.42","LBSM":"213.61","LBSQ":"210.11","LBSV":"214.18","LBSZ":"210.43"},"Timestamp":"2022-04-05T22:22:17.600489-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:17.600788-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"235.07","LBSM":"225.32","LBSQ":"222.35","LBSV":"214.64","LBSZ":"200.58"},"Timestamp":"2022-04-05T22:22:18.600178-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:18.600536-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"235.07","LBSM":"225.32","LBSQ":"222.35","LBSV":"214.64","LBSZ":"200.58"},"Timestamp":"2022-04-05T22:22:19.600163-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:19.600511-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"221.19","LBSM":"219.7","LBSQ":"208.7","LBSV":"206.62","LBSZ":"215.69"},"Timestamp":"2022-04-05T22:22:20.600006-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:20.600068-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"221.19","LBSM":"219.7","LBSQ":"208.7","LBSV":"206.62","LBSZ":"215.69"},"Timestamp":"2022-04-05T22:22:21.600263-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:21.600531-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"222.02","LBSM":"200.12","LBSQ":"216.33","LBSV":"213.81","LBSZ":"216.58"},"Timestamp":"2022-04-05T22:22:22.600189-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:22.600451-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"222.02","LBSM":"200.12","LBSQ":"216.33","LBSV":"213.81","LBSZ":"216.58"},"Timestamp":"2022-04-05T22:22:23.600002-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:23.600198-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"228.71","LBSM":"215.15","LBSQ":"206.5","LBSV":"208.36","LBSZ":"218.58"},"Timestamp":"2022-04-05T22:22:24.600599-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:24.600844-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"228.71","LBSM":"215.15","LBSQ":"206.5","LBSV":"208.36","LBSZ":"218.58"},"Timestamp":"2022-04-05T22:22:25.599918-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:25.60043-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"212.63","LBSM":"223.7","LBSQ":"202.21","LBSV":"217.72","LBSZ":"217.72"},"Timestamp":"2022-04-05T22:22:26.599787-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:26.600222-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"212.63","LBSM":"223.7","LBSQ":"202.21","LBSV":"217.72","LBSZ":"217.72"},"Timestamp":"2022-04-05T22:22:27.600053-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:27.600342-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"208.38","LBSM":"211.05","LBSQ":"212.19","LBSV":"220","LBSZ":"210.31"},"Timestamp":"2022-04-05T22:22:28.600089-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:28.600543-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"208.38","LBSM":"211.05","LBSQ":"212.19","LBSV":"220","LBSZ":"210.31"},"Timestamp":"2022-04-05T22:22:29.600079-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:29.600539-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"233.47","LBSM":"214.62","LBSQ":"215.54","LBSV":"223.76","LBSZ":"226.51"},"Timestamp":"2022-04-05T22:22:30.600069-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:30.600421-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"233.47","LBSM":"214.62","LBSQ":"215.54","LBSV":"223.76","LBSZ":"226.51"},"Timestamp":"2022-04-05T22:22:31.600043-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:31.600478-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"201.51","LBSQ":"215.51","LBSV":"226.54","LBSZ":"218.47"},"Timestamp":"2022-04-05T22:22:32.600102-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:32.60058-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"201.51","LBSQ":"215.51","LBSV":"226.54","LBSZ":"218.47"},"Timestamp":"2022-04-05T22:22:33.600064-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:33.600454-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"226.77","LBSQ":"229.56","LBSV":"223.91","LBSZ":"216.84"},"Timestamp":"2022-04-05T22:22:34.600193-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:34.600492-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"226.77","LBSQ":"229.56","LBSV":"223.91","LBSZ":"216.84"},"Timestamp":"2022-04-05T22:22:35.600078-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:35.60052-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"211.27","LBSQ":"215.97","LBSV":"213.32","LBSZ":"216.03"},"Timestamp":"2022-04-05T22:22:36.600445-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:36.60083-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"211.27","LBSQ":"215.97","LBSV":"213.32","LBSZ":"216.03"},"Timestamp":"2022-04-05T22:22:37.599427-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:37.599858-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"222.88","LBSQ":"219.46","LBSV":"209.58","LBSZ":"212.3"},"Timestamp":"2022-04-05T22:22:38.600079-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:38.600435-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"222.88","LBSQ":"219.46","LBSV":"209.58","LBSZ":"212.3"},"Timestamp":"2022-04-05T22:22:39.600095-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:39.600612-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.57","LBSQ":"211.23","LBSV":"215.84","LBSZ":"210.49"},"Timestamp":"2022-04-05T22:22:40.600568-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:40.60079-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.57","LBSQ":"211.23","LBSV":"215.84","LBSZ":"210.49"},"Timestamp":"2022-04-05T22:22:41.600225-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:41.600496-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"217.87","LBSQ":"217.48","LBSV":"214.51","LBSZ":"224.05"},"Timestamp":"2022-04-05T22:22:42.600507-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:42.600678-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"217.87","LBSQ":"217.48","LBSV":"214.51","LBSZ":"224.05"},"Timestamp":"2022-04-05T22:22:43.600113-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:43.600576-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.15","LBSQ":"224.86","LBSV":"213.24","LBSZ":"221.64"},"Timestamp":"2022-04-05T22:22:44.601234-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:44.601462-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.15","LBSQ":"224.86","LBSV":"213.24","LBSZ":"221.64"},"Timestamp":"2022-04-05T22:22:45.60001-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:45.600561-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.28","LBSQ":"216.29","LBSV":"214.46","LBSZ":"209.32"},"Timestamp":"2022-04-05T22:22:46.600617-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:46.600784-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.28","LBSQ":"216.29","LBSV":"214.46","LBSZ":"209.32"},"Timestamp":"2022-04-05T22:22:47.600614-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:47.601021-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.97","LBSQ":"220.59","LBSV":"208.62","LBSZ":"209.21"},"Timestamp":"2022-04-05T22:22:48.600057-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:48.600537-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.97","LBSQ":"220.59","LBSV":"208.62","LBSZ":"209.21"},"Timestamp":"2022-04-05T22:22:49.600061-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:49.600478-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"221.14","LBSQ":"215.54","LBSV":"218.04","LBSZ":"225.18"},"Timestamp":"2022-04-05T22:22:50.600035-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:50.600589-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"221.14","LBSQ":"215.54","LBSV":"218.04","LBSZ":"225.18"},"Timestamp":"2022-04-05T22:22:51.599981-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:51.600391-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"218.91","LBSQ":"220.99","LBSV":"229.82","LBSZ":"205.92"},"Timestamp":"2022-04-05T22:22:52.599832-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:52.600236-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"218.91","LBSQ":"220.99","LBSV":"229.82","LBSZ":"205.92"},"Timestamp":"2022-04-05T22:22:53.600052-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:53.600462-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"205.45","LBSQ":"202.17","LBSV":"209.99","LBSZ":"215.8"},"Timestamp":"2022-04-05T22:22:54.599968-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:54.600413-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"205.45","LBSQ":"202.17","LBSV":"209.99","LBSZ":"215.8"},"Timestamp":"2022-04-05T22:22:55.600011-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:55.600571-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"212.57","LBSQ":"216.98","LBSV":"213.53","LBSZ":"213.94"},"Timestamp":"2022-04-05T22:22:56.600002-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:56.600461-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"212.57","LBSQ":"216.98","LBSV":"213.53","LBSZ":"213.94"},"Timestamp":"2022-04-05T22:22:57.60001-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:57.600415-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"227.85","LBSQ":"214.4","LBSV":"220.22","LBSZ":"207.19"},"Timestamp":"2022-04-05T22:22:58.598852-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:58.599-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"227.85","LBSQ":"214.4","LBSV":"220.22","LBSZ":"207.19"},"Timestamp":"2022-04-05T22:22:59.600205-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:22:59.600484-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"220.04","LBSQ":"207.68","LBSV":"218.57","LBSZ":"213.72"},"Timestamp":"2022-04-05T22:23:00.600059-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:00.6005-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"220.04","LBSQ":"207.68","LBSV":"218.57","LBSZ":"213.72"},"Timestamp":"2022-04-05T22:23:01.599984-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:01.600473-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"203.1","LBSQ":"193.79","LBSV":"213.19","LBSZ":"205.26"},"Timestamp":"2022-04-05T22:23:02.600468-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:02.600854-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"203.1","LBSQ":"193.79","LBSV":"213.19","LBSZ":"205.26"},"Timestamp":"2022-04-05T22:23:03.599927-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:03.600276-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"217.52","LBSQ":"218.69","LBSV":"213.86","LBSZ":"211.17"},"Timestamp":"2022-04-05T22:23:04.600468-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:04.60091-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"217.52","LBSQ":"218.69","LBSV":"213.86","LBSZ":"211.17"},"Timestamp":"2022-04-05T22:23:05.600069-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:05.600483-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"235.65","LBSQ":"211.69","LBSV":"235.39","LBSZ":"226.79"},"Timestamp":"2022-04-05T22:23:06.599673-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:06.600115-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"235.65","LBSQ":"211.69","LBSV":"235.39","LBSZ":"226.79"},"Timestamp":"2022-04-05T22:23:07.60002-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:07.600536-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"212.54","LBSQ":"212.01","LBSV":"218.33","LBSZ":"217.5"},"Timestamp":"2022-04-05T22:23:08.600034-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:08.600485-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"212.54","LBSQ":"212.01","LBSV":"218.33","LBSZ":"217.5"},"Timestamp":"2022-04-05T22:23:09.599974-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:09.600404-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"214.26","LBSQ":"205.98","LBSV":"222.43","LBSZ":"205.05"},"Timestamp":"2022-04-05T22:23:10.600331-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:10.600869-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"214.26","LBSQ":"205.98","LBSV":"222.43","LBSZ":"205.05"},"Timestamp":"2022-04-05T22:23:11.600075-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:11.600483-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.08","LBSQ":"219.08","LBSV":"214.7","LBSZ":"207.75"},"Timestamp":"2022-04-05T22:23:12.599213-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:12.599631-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"216.08","LBSQ":"219.08","LBSV":"214.7","LBSZ":"207.75"},"Timestamp":"2022-04-05T22:23:13.600005-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:13.600501-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"215.67","LBSV":"209.67","LBSZ":"217.41"},"Timestamp":"2022-04-05T22:23:14.600027-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:14.60045-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"215.67","LBSV":"209.67","LBSZ":"217.41"},"Timestamp":"2022-04-05T22:23:15.600007-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:15.600303-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"230.05","LBSV":"215.18","LBSZ":"206.14"},"Timestamp":"2022-04-05T22:23:16.599959-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:16.600344-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"230.05","LBSV":"215.18","LBSZ":"206.14"},"Timestamp":"2022-04-05T22:23:17.599856-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:17.600009-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"218.76","LBSV":"218.99","LBSZ":"216.52"},"Timestamp":"2022-04-05T22:23:18.59996-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:18.600394-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"218.76","LBSV":"218.99","LBSZ":"216.52"},"Timestamp":"2022-04-05T22:23:19.599966-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:19.600556-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.43","LBSV":"214.78","LBSZ":"206.67"},"Timestamp":"2022-04-05T22:23:20.599999-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:20.600612-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.43","LBSV":"214.78","LBSZ":"206.67"},"Timestamp":"2022-04-05T22:23:21.600026-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:21.600441-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.86","LBSV":"209.71","LBSZ":"214.47"},"Timestamp":"2022-04-05T22:23:22.599949-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:22.600388-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.86","LBSV":"209.71","LBSZ":"214.47"},"Timestamp":"2022-04-05T22:23:23.599929-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:23.600053-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"225.59","LBSV":"221.72","LBSZ":"203.98"},"Timestamp":"2022-04-05T22:23:24.599751-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:24.600164-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"225.59","LBSV":"221.72","LBSZ":"203.98"},"Timestamp":"2022-04-05T22:23:25.599942-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:25.600384-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"215.49","LBSV":"205.72","LBSZ":"207.37"},"Timestamp":"2022-04-05T22:23:26.599909-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:26.600265-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"215.49","LBSV":"205.72","LBSZ":"207.37"},"Timestamp":"2022-04-05T22:23:27.600089-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:27.60045-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.86","LBSV":"208.17","LBSZ":"219.72"},"Timestamp":"2022-04-05T22:23:28.599973-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:28.60043-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.86","LBSV":"208.17","LBSZ":"219.72"},"Timestamp":"2022-04-05T22:23:29.599084-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:29.599618-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.97","LBSV":"213.86","LBSZ":"218.32"},"Timestamp":"2022-04-05T22:23:30.599839-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:30.600169-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.97","LBSV":"213.86","LBSZ":"218.32"},"Timestamp":"2022-04-05T22:23:31.599726-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:31.600182-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"225.97","LBSV":"221.45","LBSZ":"204.75"},"Timestamp":"2022-04-05T22:23:32.599958-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:32.604608-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"225.97","LBSV":"221.45","LBSZ":"204.75"},"Timestamp":"2022-04-05T22:23:33.599926-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:33.600313-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.54","LBSV":"209.09","LBSZ":"200.34"},"Timestamp":"2022-04-05T22:23:34.600024-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:34.600486-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.54","LBSV":"209.09","LBSZ":"200.34"},"Timestamp":"2022-04-05T22:23:35.600232-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:35.601303-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"214.55","LBSV":"218.87","LBSZ":"220.95"},"Timestamp":"2022-04-05T22:23:36.59998-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:36.600414-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"214.55","LBSV":"218.87","LBSZ":"220.95"},"Timestamp":"2022-04-05T22:23:37.60044-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:37.600877-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"208.77","LBSV":"205.09","LBSZ":"208.9"},"Timestamp":"2022-04-05T22:23:38.60006-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:38.600456-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"208.77","LBSV":"205.09","LBSZ":"208.9"},"Timestamp":"2022-04-05T22:23:39.599771-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:39.600113-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"211.7","LBSV":"222.94","LBSZ":"215.62"},"Timestamp":"2022-04-05T22:23:40.599921-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:40.600417-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"211.7","LBSV":"222.94","LBSZ":"215.62"},"Timestamp":"2022-04-05T22:23:41.599957-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:41.600428-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.51","LBSV":"210.36","LBSZ":"216.06"},"Timestamp":"2022-04-05T22:23:42.60021-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:42.600465-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.51","LBSV":"210.36","LBSZ":"216.06"},"Timestamp":"2022-04-05T22:23:43.600635-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:43.60092-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.68","LBSV":"212.98","LBSZ":"219.33"},"Timestamp":"2022-04-05T22:23:44.60006-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:44.600306-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"222.68","LBSV":"212.98","LBSZ":"219.33"},"Timestamp":"2022-04-05T22:23:45.599322-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:45.599603-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"211.55","LBSV":"212.98","LBSZ":"219.33"},"Timestamp":"2022-04-05T22:23:46.599839-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:46.6001-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"211.55","LBSV":"214.73","LBSZ":"209.65"},"Timestamp":"2022-04-05T22:23:47.6-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:47.600293-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"211.55","LBSV":"214.73","LBSZ":"209.65"},"Timestamp":"2022-04-05T22:23:48.599782-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:48.599935-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.05","LBSV":"212.42","LBSZ":"219.62"},"Timestamp":"2022-04-05T22:23:49.600128-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:49.600378-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.05","LBSV":"212.42","LBSZ":"219.62"},"Timestamp":"2022-04-05T22:23:50.600037-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:50.600246-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.28","LBSV":"219.01","LBSZ":"219.47"},"Timestamp":"2022-04-05T22:23:51.599826-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:51.600208-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.28","LBSV":"219.01","LBSZ":"219.47"},"Timestamp":"2022-04-05T22:23:52.599817-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:52.599907-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.97","LBSV":"199.11","LBSZ":"214.93"},"Timestamp":"2022-04-05T22:23:53.600002-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:53.600211-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"216.97","LBSV":"199.11","LBSZ":"214.93"},"Timestamp":"2022-04-05T22:23:54.59998-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:54.600257-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.97","LBSV":"208.56","LBSZ":"221.36"},"Timestamp":"2022-04-05T22:23:55.599862-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:55.600181-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"213.97","LBSV":"208.56","LBSZ":"221.36"},"Timestamp":"2022-04-05T22:23:56.599838-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:56.599941-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.89","LBSZ":"216.35"},"Timestamp":"2022-04-05T22:23:57.599789-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:57.599846-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.89","LBSZ":"216.35"},"Timestamp":"2022-04-05T22:23:58.599902-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:58.60007-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.39","LBSZ":"198.88"},"Timestamp":"2022-04-05T22:23:59.600071-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:23:59.600335-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.39","LBSZ":"198.88"},"Timestamp":"2022-04-05T22:24:00.601094-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:00.601429-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.89","LBSZ":"223.59"},"Timestamp":"2022-04-05T22:24:01.600416-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:01.600654-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.89","LBSZ":"223.59"},"Timestamp":"2022-04-05T22:24:02.600785-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:02.600962-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.4","LBSZ":"222.91"},"Timestamp":"2022-04-05T22:24:03.599839-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:03.599927-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.4","LBSZ":"222.91"},"Timestamp":"2022-04-05T22:24:04.5999-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:04.600076-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"217.6","LBSZ":"217.42"},"Timestamp":"2022-04-05T22:24:05.600228-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:05.600541-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"217.6","LBSZ":"217.42"},"Timestamp":"2022-04-05T22:24:06.599811-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:06.599939-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"218.01","LBSZ":"212.24"},"Timestamp":"2022-04-05T22:24:07.599052-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:07.59931-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"218.01","LBSZ":"212.24"},"Timestamp":"2022-04-05T22:24:08.5999-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:08.599986-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.31","LBSZ":"214.69"},"Timestamp":"2022-04-05T22:24:09.59992-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:09.600202-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.31","LBSZ":"214.69"},"Timestamp":"2022-04-05T22:24:10.599875-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:10.600084-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"209.91","LBSZ":"223.91"},"Timestamp":"2022-04-05T22:24:11.599874-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:11.600058-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"209.91","LBSZ":"223.91"},"Timestamp":"2022-04-05T22:24:12.600153-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:12.600364-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"226.61","LBSZ":"213.7"},"Timestamp":"2022-04-05T22:24:13.600154-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:13.600641-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"226.61","LBSZ":"213.7"},"Timestamp":"2022-04-05T22:24:14.599994-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:14.600107-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"213.04","LBSZ":"230.89"},"Timestamp":"2022-04-05T22:24:15.599849-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:15.599881-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"213.04","LBSZ":"230.89"},"Timestamp":"2022-04-05T22:24:16.600221-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:16.601426-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.61","LBSZ":"216.23"},"Timestamp":"2022-04-05T22:24:17.600271-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:17.600489-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"216.61","LBSZ":"216.23"},"Timestamp":"2022-04-05T22:24:18.600181-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:18.600411-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"224.5","LBSZ":"220.24"},"Timestamp":"2022-04-05T22:24:19.599803-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:19.59989-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"224.5","LBSZ":"220.24"},"Timestamp":"2022-04-05T22:24:20.59904-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:20.599114-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"213.44","LBSZ":"206.5"},"Timestamp":"2022-04-05T22:24:21.599393-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:21.59957-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"213.44","LBSZ":"206.5"},"Timestamp":"2022-04-05T22:24:22.598815-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:22.598913-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.47","LBSZ":"212.25"},"Timestamp":"2022-04-05T22:24:23.600137-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:23.600412-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"215.47","LBSZ":"212.25"},"Timestamp":"2022-04-05T22:24:24.599889-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:24.600051-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"224.72","LBSZ":"217.29"},"Timestamp":"2022-04-05T22:24:25.599368-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:25.599462-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"224.72","LBSZ":"217.29"},"Timestamp":"2022-04-05T22:24:26.600466-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:26.600551-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"217.89","LBSZ":"215.05"},"Timestamp":"2022-04-05T22:24:27.600416-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:27.600733-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"217.89","LBSZ":"215.05"},"Timestamp":"2022-04-05T22:24:28.59987-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:28.600136-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"222.71","LBSZ":"213.51"},"Timestamp":"2022-04-05T22:24:29.599983-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:29.600689-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"222.71","LBSZ":"213.51"},"Timestamp":"2022-04-05T22:24:30.599702-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:30.599823-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"214.47","LBSZ":"215.34"},"Timestamp":"2022-04-05T22:24:31.599401-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:31.599858-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"214.47","LBSZ":"215.34"},"Timestamp":"2022-04-05T22:24:32.599948-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:32.600225-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"227.61","LBSZ":"203.09"},"Timestamp":"2022-04-05T22:24:33.600031-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:33.600366-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"227.61","LBSZ":"203.09"},"Timestamp":"2022-04-05T22:24:34.599939-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:34.600191-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"221.48","LBSZ":"211.07"},"Timestamp":"2022-04-05T22:24:35.599861-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:35.600102-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"221.48","LBSZ":"211.07"},"Timestamp":"2022-04-05T22:24:36.599381-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:36.599817-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"202.71"},"Timestamp":"2022-04-05T22:24:37.599032-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:37.599276-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"202.71"},"Timestamp":"2022-04-05T22:24:38.599687-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:38.599758-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"206.82"},"Timestamp":"2022-04-05T22:24:39.599927-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:39.600239-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"206.82"},"Timestamp":"2022-04-05T22:24:40.599996-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:40.600289-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"210.26"},"Timestamp":"2022-04-05T22:24:41.600052-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:41.600366-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"210.26"},"Timestamp":"2022-04-05T22:24:42.599877-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:42.600183-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"223.12"},"Timestamp":"2022-04-05T22:24:43.600005-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:43.600272-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"223.12"},"Timestamp":"2022-04-05T22:24:44.599876-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:44.600016-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"214.01"},"Timestamp":"2022-04-05T22:24:45.59995-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:45.600236-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"214.01"},"Timestamp":"2022-04-05T22:24:46.6-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:46.600333-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"215.28"},"Timestamp":"2022-04-05T22:24:47.599872-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:47.600132-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"215.28"},"Timestamp":"2022-04-05T22:24:48.59993-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:48.600225-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"227.3"},"Timestamp":"2022-04-05T22:24:49.599934-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:49.60022-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"227.3"},"Timestamp":"2022-04-05T22:24:50.599877-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:50.600197-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"219.49"},"Timestamp":"2022-04-05T22:24:51.599963-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:51.600244-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"219.49"},"Timestamp":"2022-04-05T22:24:52.599914-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:52.600179-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"206.21"},"Timestamp":"2022-04-05T22:24:53.601068-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:53.601158-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"206.21"},"Timestamp":"2022-04-05T22:24:54.599385-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:54.599666-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"212.41"},"Timestamp":"2022-04-05T22:24:55.599821-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:55.600046-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"212.41"},"Timestamp":"2022-04-05T22:24:56.599563-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:56.599744-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"217.55"},"Timestamp":"2022-04-05T22:24:57.600037-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:57.60026-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"217.55"},"Timestamp":"2022-04-05T22:24:58.600378-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:58.600591-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"218.41"},"Timestamp":"2022-04-05T22:24:59.599991-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:24:59.600222-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"218.41"},"Timestamp":"2022-04-05T22:25:00.599981-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:00.600455-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"208.49"},"Timestamp":"2022-04-05T22:25:01.600198-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:01.600443-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"208.49"},"Timestamp":"2022-04-05T22:25:02.599916-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:02.600156-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"211.84"},"Timestamp":"2022-04-05T22:25:03.60003-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:03.600173-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"211.84"},"Timestamp":"2022-04-05T22:25:04.599684-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:04.599808-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"215.38"},"Timestamp":"2022-04-05T22:25:05.600424-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:05.600633-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"215.38"},"Timestamp":"2022-04-05T22:25:06.599707-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:06.599793-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"224.51"},"Timestamp":"2022-04-05T22:25:07.599777-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:07.599943-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"224.51"},"Timestamp":"2022-04-05T22:25:08.599848-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:08.600005-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"219.34"},"Timestamp":"2022-04-05T22:25:09.599275-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:09.599417-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"219.34"},"Timestamp":"2022-04-05T22:25:10.601401-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:10.601721-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"226.65"},"Timestamp":"2022-04-05T22:25:11.599794-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:11.600052-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"226.65"},"Timestamp":"2022-04-05T22:25:12.602707-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:12.602976-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"216.79"},"Timestamp":"2022-04-05T22:25:13.600933-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:13.601243-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"216.79"},"Timestamp":"2022-04-05T22:25:14.600558-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:14.600676-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"228.22"},"Timestamp":"2022-04-05T22:25:15.600063-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:15.600281-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"228.22"},"Timestamp":"2022-04-05T22:25:16.599662-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:16.599784-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"222.46"},"Timestamp":"2022-04-05T22:25:17.600362-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:17.600479-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"222.46"},"Timestamp":"2022-04-05T22:25:18.59989-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:18.60018-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"200.27"},"Timestamp":"2022-04-05T22:25:19.600818-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:19.605347-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"200.27"},"Timestamp":"2022-04-05T22:25:20.601419-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:20.60176-07:00"}
+{"Type":"MarkPrices","Data":{"LBSJ":"230.9","LBSM":"223.28","LBSQ":"221.69","LBSV":"211.85","LBSZ":"200.27"},"Timestamp":"2022-04-05T22:25:21.599753-07:00"}
+{"Type":"Account Info","Data":{"Acct":{"Cash":"-129410.2","Positions":{"LBSJ":100,"LBSM":100,"LBSQ":100,"LBSV":100,"LBSZ":100}},"User":"Case1ExampleBot_3082"},"Timestamp":"2022-04-05T22:25:21.599982-07:00"}

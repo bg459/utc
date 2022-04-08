@@ -2,52 +2,67 @@
 
 from dataclasses import astuple
 from datetime import datetime
+import betterproto
 from utc_bot import UTCBot, start_bot
 import proto.utc_bot as pb
-import betterproto
 
 import asyncio
 
+import numpy as np
+import pandas as pd
+from scipy.optimize import fsolve
+from scipy.stats import norm
+
 
 option_strikes = [90, 95, 100, 105, 110]
+risk_bounds = [2000, 5000, 1000000, 5000]
+critical_risk = 0.3
 
-
-class Case2ExampleBot(UTCBot):
-    """
-    An example bot for Case 2 of the 2021 UChicago Trading Competition. We recommend that you start
-    by reading through this bot and understanding how it works. Then, make a copy of this file and
-    start trying to write your own bot!
-    """
+class NoisyNuts(UTCBot):
 
     async def handle_round_started(self):
         """
         This function is called when the round is started. You should do your setup here, and
         start any tasks that should be running for the rest of the round.
         """
+         # Stores the current day (starting from 0 and ending at 5). This is a floating point number,
+        # meaning that it includes information about partial days
+        self.current_day = 0
+        self.total_risk = [0, 0, 0, 0]
+
+        # Stores the current value of the underlying asset
+        self.underlying_prices = [100]
+        self.underlying_day_price = 100
 
         # This variable will be a map from asset names to positions. We start out by initializing it
         # to zero for every asset.
+        self.fair_price = {}
         self.positions = {}
 
         self.positions["UC"] = 0
+        self.best_books = {}
+        px_pair = self.compute_end_underlying(0.90)
         for strike in option_strikes:
             for flag in ["C", "P"]:
-                self.positions[f"UC{strike}{flag}"] = 0
+                asset_name = f"UC{strike}{flag}"
+                self.positions[asset_name] = 0
+                self.fair_price[asset_name] = [
+                    self.compute_options_price(flag, px_pair[0], strike, 21/252, 0.0795),
+                    self.compute_options_price(flag, px_pair[1], strike, 21/252, 0.0795),
+                ]
+                self.best_books[asset_name] = None
+        
+        self.bid_order_id = []
+        self.ask_order_id = []
 
-        # Stores the current day (starting from 0 and ending at 5). This is a floating point number,
-        # meaning that it includes information about partial days
-        self.current_day = 0
-
-        # Stores the current value of the underlying asset
-        self.underlying_price = 100
+    def getAsset(self, asset_name):
+        sub_str = asset_name[2:-1]
+        flag = asset_name[-1]
+        return int(sub_str), flag
 
     def compute_vol_estimate(self) -> float:
-        """
-        This function is used to provide an estimate of underlying's volatility. Because this is
-        an example bot, we just use a placeholder value here. We recommend that you look into
-        different ways of finding what the true volatility of the underlying is.
-        """
-        return 0.35
+        prices = np.array(self.underlying_prices)
+        return np.std((prices[1:] - prices[:-1])/prices[:-1])*(252**0.5)
 
     def compute_options_price(
         self,
@@ -58,15 +73,58 @@ class Case2ExampleBot(UTCBot):
         volatility: float,
     ) -> float:
         """
-        This function should compute the price of an option given the provided parameters. Some
-        important questions you may want to think about are:
-            - What are the units associated with each of these quantities?
-            - What formula should you use to compute the price of the option?
-            - Are there tricks you can use to do this more quickly?
-        You may want to look into the py_vollib library, which is installed by default in your
-        virtual environment.
+        This function should compute the price of an option given the provided parameters.
         """
-        return 1.0
+        assert flag in ['P', 'C']
+        if flag == 'P':
+            theo_price = bs_put(underlying_px, strike_px, time_to_expiry, 0, volatility)
+        else:
+            theo_price = bs_call(underlying_px, strike_px, time_to_expiry, 0, volatility)
+        return theo_price
+
+    def compute_end_underlying(
+        self,
+        confidence: float,
+    ) -> float:
+        """
+        This functions estimates a confidence interval for the underlying price at the end of the round.
+        """
+        return self.underlying_prices[-1] - 2, self.underlying_prices[-1] + 2
+
+    def single_risk(self, strike, flag, time_expiry, vol):
+        """
+        Return risk for single asset
+        """
+        risk = [0, 0, 0, 0]
+        if flag == 'P':
+            risk[0] = delta_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[1] = gamma_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[2] = vega_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[3] = theta_put(self.underlying_prices[-1], strike, time_expiry, vol)
+        else:
+            risk[0] = delta_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[1] = gamma_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[2] = vega_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk[3] = theta_call(self.underlying_prices[-1], strike, time_expiry, vol)
+        return np.array(risk)
+
+    def get_risk(self):
+        """
+        Check our own greeks to guage whether or not to continue.
+        """
+        total_risk = np.array([0, 0, 0, 0])
+        for strike in option_strikes:
+            for flag in ["C", "P"]:
+                risk = self.single_risk(strike, flag, (26 - self.current_day) / 26, self.compute_vol_estimate()) * self.positions[f'UC{strike}{flag}']
+                total_risk = total_risk + risk
+        return total_risk
+
+    def check_risk(self, risk, critical):
+        risky = False
+        for i in range(4):
+            if (risk_bounds[i] - abs(risk[i])) / risk_bounds[i] < critical:
+                risky = True
+        return risky
 
     async def update_options_quotes(self):
         """
@@ -76,45 +134,107 @@ class Case2ExampleBot(UTCBot):
         quotes at the new theoretical price every time a price update happens. We don't recommend
         that you do this in the actual competition
         """
-        
-        # What should this value actually be?
-        time_to_expiry = 21 / 252
-        vol = self.compute_vol_estimate()
-
-        requests = []
+        bid_requests = []
+        ask_requests = []
+        cancel_requests = []
+        risky = self.check_risk(self.total_risk, critical_risk)
 
         for strike in option_strikes:
             for flag in ["C", "P"]:
                 asset_name = f"UC{strike}{flag}"
-                theo = self.compute_options_price(
-                    flag, self.underlying_price, strike, time_to_expiry, vol
+                px_pair = self.compute_end_underlying(0.90)
+                self.fair_price[f"UC{strike}{flag}"] = [
+                    self.compute_options_price(flag, self.underlying_prices[-1], strike, (26 - self.current_day)/252, self.compute_vol_estimate()),
+                    self.compute_options_price(flag, self.underlying_prices[-1], strike, (26 - self.current_day)/252, self.compute_vol_estimate()),
+                ]
+                
+        for order_id in self.bid_order_id:
+            cancel_requests.append(
+                self.cancel_order(
+                    order_id
                 )
-
-                requests.append(
-                    self.place_order(
-                        asset_name,
-                        pb.OrderSpecType.LIMIT,
-                        pb.OrderSpecSide.BID,
-                        1,  # How should this quantity be chosen?
-                        theo - 0.30,  # How should this price be chosen?
+            )
+        for order_id in self.ask_order_id:
+            cancel_requests.append(
+                self.cancel_order(
+                    order_id
+                )
+            )
+        if len(cancel_requests) > 0:
+            cancel_responses = await asyncio.gather(*cancel_requests)
+        
+        # new orders
+        # TODO: add adjusting values based on time from data analysis
+        risky = False # bro idk how to control risk even if it is risky :(
+        if not risky:
+            for strike in option_strikes:
+                for flag in ["C", "P"]:
+                    asset_name = f"UC{strike}{flag}"
+                    use_price = min(self.best_books[asset_name][0] + 0.1, self.fair_price[asset_name][0] - 0.2)
+                    bid_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.BID,
+                            9,  # TODO: How should this quantity be chosen?
+                            round(use_price, 1),
+                        )
                     )
-                )
-
-                requests.append(
-                    self.place_order(
-                        asset_name,
-                        pb.OrderSpecType.LIMIT,
-                        pb.OrderSpecSide.ASK,
-                        1,
-                        theo + 0.30,
+            for strike in option_strikes:
+                for flag in ["C", "P"]:
+                    asset_name = f"UC{strike}{flag}"
+                    use_price = max(self.best_books[asset_name][1] - 0.1, self.fair_price[asset_name][1])
+                    ask_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.ASK,
+                            15,
+                            round(use_price, 1),
+                        )
                     )
-                )
+        else:
+            # buying puts
+            for strike in option_strikes:
+                for flag in ["C"]:
+                    asset_name = f"UC{strike}{flag}"
+                    use_price = min(self.best_books[asset_name][0] + 0.1, self.fair_price[asset_name][0] - 0.2)
+                    bid_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.BID,
+                            9, # TODO: How should this quantity be chosen?
+                            round(use_price, 1),
+                        )
+                    )
+            for strike in option_strikes:
+                for flag in ["P"]:
+                    asset_name = f"UC{strike}{flag}"
+                    ask_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.ASK,
+                            15,
+                            round(self.best_books[asset_name][1] - 0.1, 1),
+                        )
+                    )
 
         # optimization trick -- use asyncio.gather to send a group of requests at the same time
         # instead of sending them one-by-one
-        responses = await asyncio.gather(*requests)
-        for resp in responses:
+        bid_responses = await asyncio.gather(*bid_requests)
+        ask_responses = await asyncio.gather(*ask_requests)
+
+        self.bid_order_id = []
+        self.ask_order_id = []
+        for resp in bid_responses:
             assert resp.ok
+            self.bid_order_id.append(resp.order_id)
+        for resp in ask_responses:
+            assert resp.ok
+            self.ask_order_id.append(resp.order_id)
+
 
     async def handle_exchange_update(self, update: pb.FeedMessage):
         kind, _ = betterproto.which_one_of(update, "msg")
@@ -122,6 +242,9 @@ class Case2ExampleBot(UTCBot):
         if kind == "pnl_msg":
             # When you hear from the exchange about your PnL, print it out
             print("My PnL:", update.pnl_msg.m2m_pnl)
+            print("My Positions:", self.positions)
+            print("My Risk:", self.total_risk)
+            print("Risky:", self.check_risk(self.total_risk, critical_risk))
 
         elif kind == "fill_msg":
             # When you hear about a fill you had, update your positions
@@ -132,15 +255,26 @@ class Case2ExampleBot(UTCBot):
             else:
                 self.positions[fill_msg.asset] -= update.fill_msg.filled_qty
 
+            self.total_risk = self.get_risk()
+
         elif kind == "market_snapshot_msg":
             # When we receive a snapshot of what's going on in the market, update our information
             # about the underlying price.
             book = update.market_snapshot_msg.books["UC"]
 
             # Compute the mid price of the market and store it
-            self.underlying_price = (
-                float(book.bids[0].px) + float(book.asks[0].px)
-            ) / 2
+            if len(book.bids) > 0 and len(book.asks) > 0:
+                self.underlying_prices.append(
+                    (float(book.bids[0].px) + float(book.asks[0].px)) / 2
+                )
+                if len(self.underlying_prices) > 10:
+                    self.underlying_prices = self.underlying_prices[1:]
+                
+            orderbook = update.market_snapshot_msg.books
+            for strike in option_strikes:
+                for flag in ["P", "C"]:
+                    asset_name = f"UC{strike}{flag}"
+                    self.best_books[asset_name] = [float(orderbook[asset_name].bids[0].px), float(orderbook[asset_name].asks[0].px)]
 
             await self.update_options_quotes()
 
@@ -150,8 +284,67 @@ class Case2ExampleBot(UTCBot):
         ):
             # The platform will regularly send out what day it currently is (starting from day 0 at
             # the start of the case) 
+            prev_day = self.current_day
             self.current_day = float(update.generic_msg.message)
+            if prev_day != self.current_day:
+                self.underlying_day_price = self.underlying_prices[-1]
 
 
+# Greek formulas self import
+
+def d1(S,K,T,r,sigma):
+    return(np.log(S/K)+(r+sigma**2/2.)*T)/(sigma*np.sqrt(T))
+def d2(S,K,T,r,sigma):
+    return d1(S,K,T,r,sigma)-sigma*np.sqrt(T)
+
+# Implied Volatility:
+
+iters = 20
+
+def iv_call(S,K,T,r,C):
+    return max(0, fsolve((lambda sigma: np.abs(bs_call(S,K,T,r,sigma) - C)), [1], maxfev = iters)[0])
+                      
+def iv_put(S,K,T,r,P):
+    return max(0, fsolve((lambda sigma: np.abs(bs_put(S,K,T,r,sigma) - P)), [1], maxfev = iters)[0])
+
+def bs_call(S,K,T,r,sigma):
+    return S*norm.cdf(d1(S,K,T,r,sigma))-K*np.exp(-r*T)*norm.cdf(d2(S,K,T,r,sigma))
+def bs_put(S,K,T,r,sigma):
+    return K*np.exp(-r*T)-S+bs_call(S,K,T,r,sigma)
+
+def delta_call(S,K,T,C):
+    sigma = iv_call(S,K,T,0,C)
+    return 100 * norm.cdf(d1(S,K,T,0,sigma))
+
+def gamma_call(S,K,T,C):
+    sigma = iv_call(S,K,T,0,C)
+    return 100 * norm.pdf(d1(S,K,T,0,sigma))/(S * sigma * np.sqrt(T))
+
+def vega_call(S,K,T,C):
+    sigma = iv_call(S,K,T,0,C)
+    return 100 * norm.pdf(d1(S,K,T,0,sigma)) * S * np.sqrt(T)
+
+def theta_call(S,K,T,C):
+    sigma = iv_call(S,K,T,0,C)
+    return 100 * S * norm.pdf(d1(S,K,T,0,sigma)) * sigma/(2 * np.sqrt(T))
+
+def delta_put(S,K,T,C):
+    sigma = iv_put(S,K,T,0,C)
+    return 100 * (norm.cdf(d1(S,K,T,0,sigma)) - 1)
+
+def gamma_put(S,K,T,C):
+    sigma = iv_put(S,K,T,0,C)
+    return 100 * norm.pdf(d1(S,K,T,0,sigma))/(S * sigma * np.sqrt(T))
+
+def vega_put(S,K,T,C):
+    sigma = iv_put(S,K,T,0,C)
+    return 100 * norm.pdf(d1(S,K,T,0,sigma)) * S * np.sqrt(T)
+
+def theta_put(S,K,T,C):
+    sigma = iv_put(S,K,T,0,C)
+    return 100 * S * norm.pdf(d1(S,K,T,0,sigma)) * sigma/(2 * np.sqrt(T))
+
+
+# run
 if __name__ == "__main__":
-    start_bot(Case2ExampleBot)
+    start_bot(NoisyNuts)

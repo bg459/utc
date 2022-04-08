@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 from dataclasses import astuple
 from datetime import datetime
 import betterproto
@@ -12,7 +11,6 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import fsolve
 from scipy.stats import norm
-
 
 option_strikes = [90, 95, 100, 105, 110]
 risk_bounds = np.array([2000, 5000, 1000000, 5000])
@@ -91,16 +89,17 @@ class NoisyNuts(UTCBot):
         Return risk for single asset
         """
         risk = [0, 0, 0, 0]
+        # choose to ignore other greeks :D
         if flag == 'P':
             risk[0] = delta_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[1] = gamma_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[2] = vega_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[3] = theta_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[1] = gamma_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[2] = vega_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[3] = theta_put(self.underlying_prices[-1], strike, time_expiry, vol)
         else:
             risk[0] = delta_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[1] = gamma_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[2] = vega_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            risk[3] = theta_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[1] = gamma_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[2] = vega_call(self.underlying_prices[-1], strike, time_expiry, vol)
+            #risk[3] = theta_call(self.underlying_prices[-1], strike, time_expiry, vol)
         return np.array(risk)
 
     def get_risk(self):
@@ -120,6 +119,20 @@ class NoisyNuts(UTCBot):
             val = val / abs(val)
         assert abs(val) <= 1, print('check risk failure')
         return val
+
+    def sign_func(self, x):
+        if x >= 0:
+            return 1
+        return -1
+
+    def weight_risk(self, risk):
+        """calculate risk functions for weight"""
+        lin_func = lambda r: 7*r + 8 + greed
+        quad_func = lambda r: 7*r*r*self.sign_func(r) + 8 + greed
+        root_func = lambda r: 7*(abs(r)**0.5)*self.sign_func(r) + 8 + greed
+        pos1 = max(int(round(root_func(risk))), 15)
+        pos2 = max(int(round(root_func(-risk))), 15)
+        return pos1, pos2
 
     async def update_options_quotes(self):
         """
@@ -165,8 +178,9 @@ class NoisyNuts(UTCBot):
         
         # new orders - first check risk for weighting
         risk = self.check_risk()
-        bid_weights = {"P" : max(int(round(7*risk + 8 + greed)), 15), "C" : max(int(round(8 - risk*7 + greed)), 15)}
-        ask_weights = {"P" : int(round(-7*risk + 8)), "C" : int(round(8 + risk*7))}
+        pos = self.weight_risk(risk)
+        bid_weights = {"P" : pos[0], "C" : pos[1]}
+        ask_weights = {"P" : pos[1], "C" : pos[0]}
 
         # TODO: add adjusting values based on time from data analysis
         for strike in option_strikes:

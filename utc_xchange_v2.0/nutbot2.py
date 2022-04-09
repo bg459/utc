@@ -13,8 +13,9 @@ from scipy.optimize import fsolve
 from scipy.stats import norm
 
 option_strikes = [90, 95, 100, 105, 110]
-risk_bounds = np.array([2000, 5000, 1000000, 5000])
-greed = 0
+risk_bounds = np.array([2000, 5000, 500000, 5000])
+greed = 1
+step = 0
 
 vol_list = []
 
@@ -29,7 +30,7 @@ class NoisyNuts(UTCBot):
         # meaning that it includes information about partial days
         self.current_day = 0
         self.step_count = 0
-        self.total_risk = [0, 0, 0, 0]
+        self.total_risk = 0
 
         # Stores the current value of the underlying asset
         self.underlying_prices = [100]
@@ -57,14 +58,18 @@ class NoisyNuts(UTCBot):
 
     def compute_vol_estimate(self) -> float:
         prices = np.array(self.underlying_prices)
-        """
+        
         if len(prices) < 2:
-            return 0.08*(252**0.5)
+            return 0.08*(252**0.5)*100
         vol = np.std((prices[1:] - prices[:-1])/prices[:-1])*(252**0.5)
         vol_list.append(vol)
-        return vol
-        """
-        return np.std(prices)*(252**0.5)
+        return vol * self.underlying_prices[-1]
+        
+        #time_expiry = (26 - self.current_day) / 26
+        #premium = (self.best_books["UC100P"][0] + self.best_books["UC100P"][1]) / 2
+        #iv = iv_put(self.underlying_prices[-1], 100, time_expiry, 0, premium)
+        #return np.std(prices)*(252**0.5)
+        #return iv
 
     def compute_options_price(
         self,
@@ -88,38 +93,34 @@ class NoisyNuts(UTCBot):
         """
         Return risk for single asset
         """
-        risk = [0, 0, 0, 0]
         # choose to ignore other greeks :D
         if flag == 'P':
-            risk[0] = delta_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[1] = gamma_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[2] = vega_put(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[3] = theta_put(self.underlying_prices[-1], strike, time_expiry, vol)
+            risk = delta_put(self.underlying_prices[-1], strike, time_expiry, vol)
         else:
-            risk[0] = delta_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[1] = gamma_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[2] = vega_call(self.underlying_prices[-1], strike, time_expiry, vol)
-            #risk[3] = theta_call(self.underlying_prices[-1], strike, time_expiry, vol)
-        return np.array(risk)
+            risk = delta_call(self.underlying_prices[-1], strike, time_expiry, vol)
+        return risk
 
     def get_risk(self):
         """
         Check our own greeks to guage whether or not to continue.
         """
-        total_risk = np.array([0, 0, 0, 0])
+        self.total_risk = 0
         for strike in option_strikes:
             for flag in ["C", "P"]:
-                risk = self.single_risk(strike, flag, (26 - self.current_day) / 26, self.compute_vol_estimate()) * self.positions[f'UC{strike}{flag}']
-                total_risk = total_risk + risk
-        return total_risk
+                asset_name = f"UC{strike}{flag}"
+                option_price = (self.best_books[asset_name][0] + self.best_books[asset_name][1]) / 2
+                time_expiry = (26 - self.current_day) / 26
+                risk = self.single_risk(strike, flag, time_expiry, option_price) * self.positions[f'UC{strike}{flag}']
+                self.total_risk += risk
+        return self.total_risk
 
     def check_risk(self):
         # we need to clear risk periodically?
-        val = self.total_risk[0] / risk_bounds[0]
+        val = self.total_risk / risk_bounds[0]
         if abs(val) > 1:
             val = val / abs(val)
         assert abs(val) <= 1, print('check risk failure')
-        return val
+        return val/greed
 
     def sign_func(self, x):
         if x >= 0:
@@ -128,9 +129,9 @@ class NoisyNuts(UTCBot):
 
     def weight_risk(self, risk):
         """calculate risk functions for weight"""
-        lin_func = lambda r: 7*r + 8 + greed
-        quad_func = lambda r: 7*r*r*self.sign_func(r) + 8 + greed
-        root_func = lambda r: 7*(abs(r)**0.5)*self.sign_func(r) + 8 + greed
+        lin_func = lambda r: 7*r + 8
+        quad_func = lambda r: 7*r*r*self.sign_func(r) + 8
+        root_func = lambda r: 7*(abs(r)**0.5)*self.sign_func(r) + 8
         pos1 = max(int(round(root_func(risk))), 15)
         pos2 = max(int(round(root_func(-risk))), 15)
         return pos1, pos2
@@ -139,9 +140,11 @@ class NoisyNuts(UTCBot):
         """
         This function will update the quotes that the bot has currently put into the market.
         """
+        if self.current_day < 0:
+            return
         if len(self.underlying_prices) < 2:
             return
-        if self.step_count % 5 != 0:
+        if self.step_count % 10 != 0:
             return
 
         bid_requests = []
@@ -150,16 +153,23 @@ class NoisyNuts(UTCBot):
 
         # BSM prices
         use_prices = {}
+        vol = self.compute_vol_estimate()
         for strike in option_strikes:
             for flag in ["C", "P"]:
                 asset_name = f"UC{strike}{flag}"
-                vol = self.compute_vol_estimate()
                 expiry_time = (26 - self.current_day)/252
                 fair_price = self.compute_options_price(flag, self.underlying_prices[-1], strike, expiry_time, vol)
-                use_prices[asset_name] = [round(fair_price, 1) - 0.2, round(fair_price, 1)] # bids then asks
+                use_prices[asset_name] = [round(fair_price, 1) - 0.2, round(fair_price, 1) + 0.2] # bids then asks
                 if self.best_books[asset_name] != None:
-                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.2)
-                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.2)
+                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.1)
+                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.1)
+                """
+                if self.positions[asset_name] > 50:
+                    use_prices[asset_name][1] = self.best_books[asset_name][1] - 0.3
+                elif self.positions[asset_name] < -50:
+                    use_prices[asset_name][0] = self.best_books[asset_name][0] + 0.2
+                """
+
 
         # cancel all existing orders  
         for order_id in self.bid_order_id:
@@ -187,6 +197,11 @@ class NoisyNuts(UTCBot):
         for strike in option_strikes:
             for flag in ["C", "P"]:
                 asset_name = f"UC{strike}{flag}"
+                # comment out for sig
+                if self.positions[asset_name] > 25:
+                    bid_weights[flag] = 1
+                elif self.positions[asset_name] < -25:
+                    ask_weights[flag] = 1
                 bid_requests.append(
                     self.place_order(
                         asset_name,
@@ -202,7 +217,8 @@ class NoisyNuts(UTCBot):
                         pb.OrderSpecType.LIMIT,
                         pb.OrderSpecSide.ASK,
                         ask_weights[flag],
-                        use_prices[asset_name][1],
+                        #use_prices[asset_name][1],
+                        self.best_books[asset_name][1] - 0.3, # 0.2 subtract might be better? imc
                     )
                 )
 
@@ -245,6 +261,7 @@ class NoisyNuts(UTCBot):
             # When we receive a snapshot of what's going on in the market, update our information
             # about the underlying price.
             self.step_count += 1
+            step = self.step_count
             book = update.market_snapshot_msg.books["UC"]
 
             # Compute the mid price of the market and store it
@@ -339,3 +356,4 @@ def theta_put(S,K,T,C):
 if __name__ == "__main__":
     start_bot(NoisyNuts)
     print(vol_list)
+    print(step)

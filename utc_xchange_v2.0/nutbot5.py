@@ -58,17 +58,17 @@ class NoisyNuts(UTCBot):
 
     def compute_vol_estimate(self) -> float:
         prices = np.array(self.underlying_prices)
-        """
+        
         if len(prices) < 2:
             return 0.08*(252**0.5)*100
         vol = np.std((prices[1:] - prices[:-1])/prices[:-1])*(252**0.5)
         vol_list.append(vol)
         return vol * self.underlying_prices[-1]
-        """
+        
         #time_expiry = (26 - self.current_day) / 26
         #premium = (self.best_books["UC100P"][0] + self.best_books["UC100P"][1]) / 2
         #iv = iv_put(self.underlying_prices[-1], 100, time_expiry, 0, premium)
-        return np.std(prices)*(252**0.5)
+        #return np.std(prices)*(252**0.5)
         #return iv
 
     def compute_options_price(
@@ -129,11 +129,11 @@ class NoisyNuts(UTCBot):
 
     def weight_risk(self, risk):
         """calculate risk functions for weight"""
-        lin_func = lambda r: 7*r + 8
-        quad_func = lambda r: 7*r*r*self.sign_func(r) + 8
-        root_func = lambda r: 7*(abs(r)**0.5)*self.sign_func(r) + 8
-        pos1 = max(int(round(quad_func(risk))), 15)
-        pos2 = max(int(round(quad_func(-risk))), 15)
+        lin_func = lambda r: 7.5*r + 7.5
+        quad_func = lambda r: 7.5*r*r*self.sign_func(r) + 7.5
+        root_func = lambda r: 7.5*(abs(r)**0.5)*self.sign_func(r) + 7.5
+        pos1 = max(int(round(root_func(risk))), 15)
+        pos2 = max(int(round(root_func(-risk))), 15)
         return pos1, pos2
 
     async def update_options_quotes(self):
@@ -159,10 +159,17 @@ class NoisyNuts(UTCBot):
                 asset_name = f"UC{strike}{flag}"
                 expiry_time = (26 - self.current_day)/252
                 fair_price = self.compute_options_price(flag, self.underlying_prices[-1], strike, expiry_time, vol)
-                use_prices[asset_name] = [round(fair_price, 1) - 0.2, round(fair_price, 1)] # bids then asks
+                use_prices[asset_name] = [round(fair_price, 1) - 0.2, round(fair_price, 1) - 0.2] # bids then asks
                 if self.best_books[asset_name] != None:
-                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.2)
-                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.2)
+                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.1)
+                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.1)
+                """
+                if self.positions[asset_name] > 50:
+                    use_prices[asset_name][1] = self.best_books[asset_name][1] - 0.3
+                elif self.positions[asset_name] < -50:
+                    use_prices[asset_name][0] = self.best_books[asset_name][0] + 0.2
+                """
+
 
         # cancel all existing orders  
         for order_id in self.bid_order_id:
@@ -171,12 +178,14 @@ class NoisyNuts(UTCBot):
                     order_id
                 )
             )
+        """
         for order_id in self.ask_order_id:
             cancel_requests.append(
                 self.cancel_order(
                     order_id
                 )
             )
+        """
         if len(cancel_requests) > 0:
             cancel_responses = await asyncio.gather(*cancel_requests)
         
@@ -190,24 +199,32 @@ class NoisyNuts(UTCBot):
         for strike in option_strikes:
             for flag in ["C", "P"]:
                 asset_name = f"UC{strike}{flag}"
-                bid_requests.append(
-                    self.place_order(
-                        asset_name,
-                        pb.OrderSpecType.LIMIT,
-                        pb.OrderSpecSide.BID,
-                        bid_weights[flag],
-                        use_prices[asset_name][0],
+                # comment out for sig
+                #if self.positions[asset_name] > 50:
+                #    bid_weights[flag] = 1
+                #elif self.positions[asset_name] < -50:
+                #    ask_weights[flag] = 1
+                if bid_weights[flag] > 0:
+                    bid_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.BID,
+                            bid_weights[flag],
+                            use_prices[asset_name][0],
+                        )
                     )
-                )
-                ask_requests.append(
-                    self.place_order(
-                        asset_name,
-                        pb.OrderSpecType.LIMIT,
-                        pb.OrderSpecSide.ASK,
-                        ask_weights[flag],
-                        use_prices[asset_name][1],
+                if ask_weights[flag] > 0:
+                    ask_requests.append(
+                        self.place_order(
+                            asset_name,
+                            pb.OrderSpecType.LIMIT,
+                            pb.OrderSpecSide.ASK,
+                            ask_weights[flag],
+                            #use_prices[asset_name][1],
+                            self.best_books[asset_name][1] - 0.1, # 0.2 subtract might be better? imc
+                        )
                     )
-                )
 
         # optimization trick -- use asyncio.gather to send a group of requests at the same time
         # instead of sending them one-by-one

@@ -144,7 +144,7 @@ class NoisyNuts(UTCBot):
             return
         if len(self.underlying_prices) < 2:
             return
-        if self.step_count % 10 != 0:
+        if self.step_count % 5 != 0:
             return
 
         bid_requests = []
@@ -198,9 +198,9 @@ class NoisyNuts(UTCBot):
             for flag in ["C", "P"]:
                 asset_name = f"UC{strike}{flag}"
                 # comment out for sig
-                if self.positions[asset_name] > 25:
+                if self.positions[asset_name] > 200:
                     bid_weights[flag] = 1
-                elif self.positions[asset_name] < -25:
+                elif self.positions[asset_name] < -60:
                     ask_weights[flag] = 1
                 bid_requests.append(
                     self.place_order(
@@ -218,7 +218,7 @@ class NoisyNuts(UTCBot):
                         pb.OrderSpecSide.ASK,
                         ask_weights[flag],
                         #use_prices[asset_name][1],
-                        self.best_books[asset_name][1] - 0.3, # 0.2 subtract might be better? imc
+                        self.best_books[asset_name][1] - 0.1, # 0.2 subtract might be better? imc
                     )
                 )
 

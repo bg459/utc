@@ -114,6 +114,7 @@ class NoisyNuts(UTCBot):
         return total_risk
 
     def check_risk(self):
+        # we need to clear risk periodically?
         val = self.total_risk[0] / risk_bounds[0]
         if abs(val) > 1:
             val = val / abs(val)
@@ -157,8 +158,8 @@ class NoisyNuts(UTCBot):
                 fair_price = self.compute_options_price(flag, self.underlying_prices[-1], strike, expiry_time, vol)
                 use_prices[asset_name] = [round(fair_price, 1) - 0.2, round(fair_price, 1)] # bids then asks
                 if self.best_books[asset_name] != None:
-                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.1)
-                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.1)
+                    use_prices[asset_name][0] = min(use_prices[asset_name][0], self.best_books[asset_name][0] + 0.2)
+                    use_prices[asset_name][1] = max(use_prices[asset_name][1], self.best_books[asset_name][1] - 0.2)
 
         # cancel all existing orders  
         for order_id in self.bid_order_id:
@@ -274,6 +275,9 @@ class NoisyNuts(UTCBot):
             self.current_day = float(update.generic_msg.message)
             if prev_day != self.current_day:
                 self.underlying_day_price = self.underlying_prices[-1]
+        elif kind == "request_failed_msg":
+            # check for request denied
+            pass
 
 
 # Greek formulas self import
